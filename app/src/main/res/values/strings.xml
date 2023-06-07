@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">We Swing</string>
+    <string name="register_title">Registro</string>
+
+    <string-array name="idioma_list">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Francés</item>
+    </string-array>
+
+    <string-array name="pais_list">
+        <item>Spain</item>
+        <item>London</item>
+        <item>Germany</item>
+    </string-array>
+
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="typePerson_list">
+        <item>Follower</item>
+        <item>Profesional</item>
+        <item>Beginner</item>
+    </string-array>
+
+</resources>

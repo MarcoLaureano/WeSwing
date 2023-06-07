@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_register"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#a14844"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_title"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_gravity="center" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+            <EditText
+                android:id="@+id/name_text"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:hint="Name"
+                />
+
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:entries="@array/gender_list"
+                />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:hint="username@mail.com"
+                />
+
+
+            <Button
+                style="@style/green"
+                android:layout_width="335dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="disponible"
+                />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:hint="******"
+                android:inputType="textPassword" />
+
+            <Spinner
+                android:id="@+id/ciutat"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:entries="@array/pais_list"
+                android:inputType="textPersonName"
+                android:text="Name"
+               />
+
+            <Spinner
+                android:id="@+id/follower"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="12dp"
+                android:entries="@array/typePerson_list"
+               />
+
+            <Spinner
+                android:id="@+id/idioma"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:entries="@array/idioma_list"
+               />
+
+            <Switch
+                android:id="@+id/music"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="  Dancer"
+                android:textSize="16dp"
+                />
+
+            <Switch
+                android:id="@+id/dancer"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="  Teacher"
+                android:textSize="16dp"
+                />
+
+
+            <Switch
+                android:id="@+id/teacher"
+                android:layout_width="335dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="4dp"
+                android:text="   Music"
+                android:textSize="16dp"
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="169dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="8dp"
+                android:text="Upload Photo"
+               />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="335dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="12dp"
+                android:text="Registrar"
+                 />
+
+</LinearLayout>
+    </ScrollView>

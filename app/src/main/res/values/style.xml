@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="rojo">
+        <item name="android:background">#a14844</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="green">
+        <item name="android:background">#49a148</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
